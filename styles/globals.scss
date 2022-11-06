@@ -1,0 +1,41 @@
+//#E2EFDE - background header
+//#AFD0BF - affter links color
+//#808F87
+//#9B7E46 - links color
+//#F4B266 - lonks hover
+
+//links for header: font-size 1.3rem
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main__content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+
+  .main__inner {
+    flex-grow: 2;
+    
+  }
+}
+

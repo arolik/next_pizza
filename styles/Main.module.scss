@@ -1,0 +1,53 @@
+
+.main__page {
+    background-image: url(./../public/images/bg-main-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+
+    .main__pageInfo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-content: flex-start;
+        align-items: center;
+
+        .main__pageTitle {
+            font-size: 3rem;
+            color: #e2efde;
+        }
+
+        .main__pageMessage {
+            font-size: 1.7rem;
+            font-weight: 500;
+            color: #e2efde;
+        }
+
+        .main__pageLink {
+            text-decoration: none;
+            font-size: 1.7rem;
+            color: #9b7e46;
+            background-color: #afd0bf;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            transition: all 0.5s;
+            
+
+            &:hover {
+                background-color: #9b7e46;
+                color: #afd0bf;
+                transform: scale(1.05, 1.05);
+                box-shadow: 0px 0px 15px 5px rgba(128,143,135,1);
+                
+            }
+        }
+    }
+}
